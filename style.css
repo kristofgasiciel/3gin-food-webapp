@@ -1,0 +1,14 @@
+header {
+    background: #ffffff;
+}
+a:visited {
+    color: #424242;
+    text-decoration: none;
+}
+a:link {
+    color: #424242;
+    text-decoration: none;
+}
+a {
+    font-weight: bold;
+}
