@@ -22,10 +22,10 @@ button {
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: 1.5px 1.5px 2px #FFB800;
   }
 main {
     padding: 150px;
     background-color: #FCCD23;
     text-align: center;
 }
+
