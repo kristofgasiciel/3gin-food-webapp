@@ -25,9 +25,76 @@ button {
     border-radius: 10px;
     border: none;
   }
-main {
-    padding: 150px;
-    background-color: #FCCD23;
-    text-align: center;
+#hero {
+padding: 150px;
+background: linear-gradient(#ffbb0e, #daa00f)
 }
+#hero h1{
+font-weight: bold; 
+color: #ffffff;
+font-size:80px;
+text-align: left;
+}
+#hero h2{
+font-size:25px;
+text-align: left;
+}
+#enter_address{
+border-radius: 20px;
+padding: 10px;
+height: 150px;
+width: 750px;
+text-align: left;
+}
+#logo {
+font-size: 28px; 
+background: linear-gradient(to right, #F17228 50%, #FFB30E 50%); 
+background-clip: text;  
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#deliver{
+margin-top:10px;
+font-size:15px;
+}
+#login{
+margin-left:20px; 
+box-shadow: 1.5px 1.5px 2px 1.5px #FFB800;
+}
+#orange {
+width:150px;
+border: none;
+color:#F17228 ;
+background-color:#ffd6be;
+font-weight: bold; 
+border-radius: 7px;
 
+}
+#white {
+border: none;
+width:150px;
+margin-left: 100px; 
+font-weight: bold; 
+border-radius: 7px;
+}
+.vage {
+font-weight: bold; 
+
+}
+#hero input{
+width: 400px;
+}
+#find{
+border: none;
+color:#ffffff; 
+width: 150px; 
+padding:12px; 
+font-weight: bold; 
+background-color:#FF7A7A; 
+border-radius: 10px;
+margin-left: 100px; 
+}
+#hero img{
+width: 660px; 
+position: absolute;
+}
