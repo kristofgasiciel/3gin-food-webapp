@@ -13,7 +13,7 @@ a:link {
     color: #424242;
     text-decoration: none;
 }
-a {
+header a{
     font-weight: bold;
 }
 
@@ -26,7 +26,7 @@ border-radius: 7px;
 }
 #hero {
 padding: 150px;
-background: linear-gradient(#ffbb0e, #daa00f);
+background: linear-gradient(#faba19, #e0a81b);
 }
 #hero h1{
 font-weight: bold; 
@@ -38,10 +38,9 @@ text-align: left;
 font-size:25px;
 text-align: left;
 }
-#enter_address{
+#hero .card{
 border-radius: 20px;
 padding: 10px;
-min-width: 700px;
 text-align: left;
 }
 #logo {
@@ -86,18 +85,12 @@ border-radius: 7px;
 }
 #discount p{
 font-weight: bold; 
+}
+/* nie działa scalowanie prawie całego carda */
+#hero input{
+width: 400px;
+}
 
-}
-@media (min-width: 1600px) {
-    #hero input{
-    width: 400px;
-    }
-}
-@media (max-width: 1600px) {
-    #hero input{
-    width: 350px;
-    }
-}
 #find{
 border: none;
 color:#ffffff; 
