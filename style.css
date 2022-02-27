@@ -13,18 +13,14 @@ a:link {
 a {
     font-weight: bold;
 }
-button {
-    font-weight: bold;
-    color: #FFB800;
-    border-color: #FFB800;
-    background-color: #ffffff;
-    padding: 10px 30px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 10px;
-    border: none;
-  }
+
+#discount button {
+border: none;
+color:#F17228 ;
+background-color:#ffd6be;
+font-weight: bold; 
+border-radius: 7px;
+}
 #hero {
 padding: 150px;
 background: linear-gradient(#ffbb0e, #daa00f)
@@ -60,6 +56,16 @@ font-size:15px;
 #login{
 margin-left:20px; 
 box-shadow: 1.5px 1.5px 2px 1.5px #FFB800;
+font-weight: bold;
+color: #FFB800;
+border-color: #FFB800;
+background-color: #ffffff;
+padding: 10px 30px;
+text-align: center;
+font-size: 16px;
+cursor: pointer;
+border-radius: 10px;
+border: none;
 }
 #orange {
 width:150px;
@@ -68,7 +74,6 @@ color:#F17228 ;
 background-color:#ffd6be;
 font-weight: bold; 
 border-radius: 7px;
-
 }
 #white {
 border: none;
@@ -97,4 +102,7 @@ margin-left: 100px;
 #hero img{
 width: 660px; 
 position: absolute;
+}
+#discount .card{
+border:none;
 }
