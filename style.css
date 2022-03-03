@@ -120,5 +120,33 @@ border:none;
 border-radius: 15px;
 }
 #discount {
-margin-top: 40px; margin-left: 100px;margin-right: 100px;
+margin-top: 40px; 
+margin-left: 100px;
+margin-right: 100px;
+}
+#tutorial {
+background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+padding: 150px;
+text-align: center;
+}
+#tutorial h2{
+color: #F17228;
+font-weight: bold;
+margin-bottom: 80px;
+font-size: 43px;
+}
+#tutorial .upper_text{
+font-weight: bold;
+color: #434343;
+}
+#tutorial .bottom_text{
+color: #9E9E9E;
+}
+#popular_items {
+text-align: center;
+}
+#popular_items h2{
+font-size: 43px;
+font-weight: bold;
+margin-bottom: 80px;
 }
