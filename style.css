@@ -173,3 +173,28 @@ font-weight: bold;
 #popular_items .zlote{
 color: #FFB30E;
 }
+#featured .card{
+border: none;
+text-align: left;
+}
+#featured h2{
+font-size: 43px;
+font-weight: bold;
+margin-bottom: 80px;    
+}
+#featured{
+text-align: center;
+}
+#featured img{
+border-radius: 15px;
+}
+#featured .tomorrow{
+border: none;
+color:#F17228 ;
+background-color:#ffd6be;
+font-weight: bold; 
+border-radius: 13px;  
+}
+#featured .czarne{
+font-weight: bold;
+}
