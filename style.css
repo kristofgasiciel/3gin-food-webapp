@@ -121,8 +121,8 @@ border-radius: 15px;
 }
 #discount {
 margin-top: 40px; 
-margin-left: 100px;
-margin-right: 100px;
+margin-left: 180px;
+margin-right: 180px;
 }
 #tutorial {
 background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
@@ -180,12 +180,16 @@ text-align: left;
 #featured h2{
 font-size: 43px;
 font-weight: bold;
-margin-bottom: 80px;    
+margin-bottom: 80px; 
+margin-top: 80px;   
 }
 #featured{
 text-align: center;
+margin-top: 40px; 
+margin-left: 180px;
+margin-right: 180px;
 }
-#featured img{
+#featured .obraz{
 border-radius: 15px;
 }
 #featured .tomorrow{
@@ -197,4 +201,15 @@ border-radius: 13px;
 }
 #featured .czarne{
 font-weight: bold;
+}
+#featured .ikonka{
+width:50px;
+height: 50px;
+}
+#featured .now{
+border: none;
+color:#79B93C ;
+background-color:#daf0c6;
+font-weight: bold; 
+border-radius: 13px;  
 }
