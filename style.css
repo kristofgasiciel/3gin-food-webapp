@@ -393,3 +393,22 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 margin-top: 15px;
 }
+#nadfooter{
+    background-image: url(img/Imagebgimage.png);
+    text-align: center;
+    padding: 100px;
+}
+#nadfooter h2{
+    font-weight: bold; 
+    color: #ffffff;
+    font-size:50px;
+    text-align: center;
+}
+#nadfooter button{
+    border: none;
+    font-weight: bold; 
+    border-radius: 7px;
+    background-color: #F17228;
+    color:#ffffff;
+    padding: 15px;
+}
