@@ -349,3 +349,47 @@ transition: .2s;
 .footer .container-fluid {
 margin-left: 5%;
 }
+#byfood {
+background-color: #FEFAF1;
+}
+#byfood .container-fluid{
+padding: 100px;
+}
+#byfood .opis{
+font-weight: bold;
+color: #212121;
+text-align: center;
+}
+#byfood #napis{
+color: #FFB30E;  
+}
+#byfood .strzalki{
+margin-top: 20px;
+}
+#byfood .obrazek{
+border-radius: 150px;
+}
+#byfood h2{
+    font-size: 43px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+#dodatki {
+    background-color: #FEEFD0;
+    padding: 150px;
+}
+#dodatki .card{
+width: 80%;
+margin-left: 10%;
+border-radius: 30px;
+padding: 30px;
+}
+#dodatki .zawartosc{
+font-size: 28px;
+font-weight: bold;
+background: linear-gradient(to right, #F17228, #FFB30E); 
+background-clip: text;  
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 15px;
+}
