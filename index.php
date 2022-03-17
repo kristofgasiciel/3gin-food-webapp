@@ -3,23 +3,46 @@ $now = time();
 $vage = array(0 => array(
     "img" => "img/image.png",
     "name" => "Sałatka",
-    "date" => "2022-03-14"
+    "date" => "2022-03-20",
+    "price" => "5$",
+    "localisation" => "Burger arena"
     ),
     1 => array(
     "img" => "img/image (1).png",
     "name" => "Sałatka fajna",
-    "date" => "2022-03-18"
+    "date" => "2022-03-30",
+    "price" => "7.5$",
+    "localisation" => "Burger arena"
     ),
     2 => array(
     "img" => "img/image (2).png",
     "name" => "Sałatka niefajna",
-    "date" => "2022-03-12"
+    "date" => "2022-03-25",
+    "price" => "3$",
+    "localisation" => "Burger arena"
     ),
     3 => array(
     "img" => "img/image (3).png",
     "name" => "Zupa",
-    "date" => "2022-03-19"
+    "date" => "2022-03-19",
+    "price" => "5.2$",
+    "localisation" => "Burger arena"
+    ),
+    4 => array(
+    "img" => "img/searchbyfood (1).png",
+    "name" => "Burgir",
+    "date" => "2022-03-19",
+    "price" => "51$",
+    "localisation" => "Burger arena"
+    ),
+    5 => array(
+    "img" => "img/searchbyfood (2).png",
+    "name" => "rosol",
+    "date" => "2022-03-19",
+    "price" => "2$",
+    "localisation" => "Burger arena"
     )
+
 );
 
 
@@ -140,7 +163,7 @@ $conn = null;*/
               <div class="container-fluid">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
                     <?php
-                    foreach($vage as $p){
+                    foreach(array_slice($vage, 0, 4) as $p){
                 echo'<div class="col"> <div class="card">' . '<img src="' . $p['img'] . '"/>' . "<br>" .
                   '<div class="card-body">
                         <p class="card-text vage">' . $p['name'] . '</p>' .
@@ -148,10 +171,8 @@ $conn = null;*/
                             <div class="btn-group"> 
                                 <button type="button" class="btn">';
                                 $your_date = strtotime($p['date']); 
-                                $daysleft = $now - $your_date; 
-                                echo round($daysleft / (60 * 60 * 24)); 
-                                echo ' days left
-                                </button> 
+                                $daysleft = $your_date - $now ; 
+                                echo round($daysleft / (60 * 60 * 24)) . ' days left </button> 
                             </div> 
                         </div> 
                     </div> 
